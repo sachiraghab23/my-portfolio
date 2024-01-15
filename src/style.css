@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: '';
+  --textcolor: '';
+  --headingColor: '';
+  --iconBackgroundColor: '';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #faf1f1b3;
+}
+
+.intro-section {
+  width: 80%;
+  background-color: #ffffffc7;
+  box-shadow: 0px -1px 6px 0px #555353;
+  border-radius: 10px;
+}
+
+.intro-section>div {
+  padding: 1rem 1.5rem;
+}
+
+.intro-section .btn {
+  font-weight: bold;
+}
+
+.intro-section .objective {
+  text-align: justify;
+}
+
+.introduction div,
+.introduction span {
+  font-weight: bold;
+}
+
+.introduction div {
+  font-size: 2.3rem;
+}
+
+.introduction span {
+  font-size: 2.2rem;
+  color: #ffca00;
+  text-shadow: 2px 1px 2px black;
+}
+
+.section-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px #000;
+}
+
+.section-heading .h3 {
+  font-size: 2.5rem;
+  color: #ffb800;
+  text-shadow: 1px -1px 0px BLACK;
+  font-weight: bold;
+}
+
+.section-div {
+  background-color: #f5f1e1;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px #957c60;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.skills-container .card {
+  width: 12rem;
+  margin: 1rem;
+  box-shadow: 0px 0px 3px 1px #7e6f6f;
+  text-align: center;
+}
+
+.experience .company {
+  font-size: 1.5rem;
+}
+
+.experience .company-location {
+  font-size: 1.2rem;
+}
+
+.tenure {
+  font-weight: 500;
+}
+
+.project-container {
+  padding: 1rem 2.5rem;
+  justify-content: space-evenly;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.project-container .card {
+  display: inline-block;
+  padding: 0.25rem;
+  margin: 0 auto;
+}
+
+.project-container .card-body {
+  width: 340px;
+  height: 320px;
+}
+
+.project-container .project-details {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: antiquewhite;
+  border: 1px solid rgb(146, 133, 133);
+  border-radius: 4px;
+  overflow-x: auto;
+  text-wrap: wrap;
+  margin-bottom: 10px;
+}
